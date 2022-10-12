@@ -1,0 +1,19 @@
+@font-face {
+    font-family: IranSans;
+    src: url(../fonts/IRANSans_Black.ttf);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: IRANSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
