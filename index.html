@@ -12,58 +12,61 @@
     <link href="css/fontawesome-free-6.2.0-web/css/solid.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <header>
 
 
         <div class="right-menu">
             <div class="logo">
                 <a href="#">
                     <img src="images/logo.svg" alt="divar logo">
-                </a>
+                </a> 
             </div>
+            <div class="vertical-line"></div>
 
-            <div class="location">
+            <button class="menu-btn location">
                 <i class="fa-regular fa-location-dot"></i>
-                <button class="menu-btn">تهران</button>
-            </div>
-
-            <div class="dropdown-menu">
-                <button></button>
+                <span class="btn-txt">تهران</span>
+            </button>
+            
+            <button class="menu-btn categories">
+                <span class="btn-txt">دسته‌ها</span>
                 <i class="fa-regular fa-angle-down"></i>
-                <div class="dropdown-menu2"></div>
-            </div>
+            </button>
 
-            <div class="search-box">
+   
+
+            <div class="menu-btn search-box">
                 <i class="fa-regular fa-magnifying-glass"></i>
-                <form action="#">
-                    <input type="text">
+                <form action="">
+                    <input type="text" value="" class="" placeholder="جستجو در همهٔ آگهی‌ها" autocomplete="off">
                 </form>
-            </div>
+            </div> 
 
-        </div> <!-- end of right-menu -->
+        </div><!--  end of right-menu -->
 
         <div class="left-menu">
-
-            <div class="profile">
+            <button class="menu-btn profile">
                 <i class="fa-regular fa-user"></i>
-                <button class="my-divar"></button>
-            </div>
-
-            <div class="chat-menu">
+                <span class="btn-txt">دیوار من</span>  
+            </button>
+            <button class="menu-btn chat">
                 <i class="fa-regular fa-comment"></i>
-                <button class="chat"></button>
-            </div>
+                <span class="btn-txt">چت</span>  
+            </button> 
+                        
+            <button class="menu-btn support">
+                <span class="btn-txt">پشتیبانی</span>  
+            </button>  
+            <button class="menu-btn advertisement">
+                <span class="btn-txt">ثبت آگهی</span>  
+            </button>  
 
-            <div class="support-menu">
-                <button class="support"></button>
-            </div>
 
-            <div class="register-menu">
-                <button class="register"></button>
-            </div>
+
+
 
         </div> <!-- end of left menu -->
-    </div><!-- end of header -->
+    </header><!-- end of header -->
 
 
     <div class="main">

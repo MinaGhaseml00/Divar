@@ -1,14 +1,42 @@
 @font-face {
-    font-family: IranSans;
-    src: url(../fonts/IRANSans_Black.ttf);
+    font-family: IRANSans_Black;
+    src: url('../fonts/IRANSans_Black.ttf');
 }
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANsans.ttf');
+}
+@font-face {
+    font-family: fontawsome;
+    src: url('../css/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.ttf');
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('Vazir-opentype'),
+         url('../fonts/Vazir.woff') format('woff'),
+         url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Vazir-Bold;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('Vazir-Bold-opentype'),
+         url('../fonts/Vazir-Bold.woff') format('woff'),
+         url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 *{
     margin:0;
 }
 
 body{
-    font-family: IRANSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: Vazir,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     color:black;
 }
 
@@ -17,3 +45,169 @@ a {
     color:black;
 }
 
+header {
+    background: #fff;
+    width:100%;
+    height:50px;
+    box-shadow:0 1px 2px 0 rgb(0 , 0 , 0 , 0.12) ;
+    padding : 8px 32px 6px 16px;
+    vertical-align: middle;
+}
+
+.right-menu{
+    width: 60%;
+
+}
+.right-menu>*{
+    display: inline; 
+}
+
+header>*{
+    display: inline;
+    padding : 8px 0;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
+/* .left-menu>*{
+    float: left;
+}
+.left-menu::after,
+.left-menu::before{
+    content:"";
+    clear: both;
+} */
+
+.logo a img {
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.logo a{
+    cursor: pointer;
+}
+
+.vertical-line{
+    height: 1.5em;
+    margin: 0 8px;
+    border-left: 1px solid #E0E0E0;
+
+}
+
+.menu-btn {
+    height: 2.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    line-height: 2em;
+    padding: 0 16px;
+    font-size:0.95rem;
+    transition: background-color 0.2s ease-in-out ,  color 0.2s ease-in-out;
+    color: rgba(0,0,0,.46);
+    font-family:Vazir-Bold ;
+}
+.categories {
+    margin-right:16px;
+    padding:0 16px 0 0;
+
+}
+.menu-btn:hover{
+    cursor:pointer;
+    background-color : #f5f5f5;
+    color: black;
+}
+.menu-btn i{
+    line-height: 1.25 rem;
+    margin-left: 5px;
+
+}
+
+.menu-btn span {
+    font-size: 0.875rem;
+
+}
+
+
+.categories i{
+    
+    line-height: 1.25rem;
+        font-size:0.800rem;
+    margin-right: 8px;
+    margin-left:11px;
+}
+
+.search-box {
+    background-color: #F5F5F5;
+    font-size: 1rem;
+    font-weight: 400;
+    height:40px ;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0 8px;
+    justify-content: center;
+    text-align: center;
+    color: rgba(0,0,0,.32);
+    
+    
+}
+
+
+form {
+    display:inline;
+    
+}
+.search-box input {
+    border:none;
+    background-color: #f5f5f5;
+    width:436px;
+    font-family:Vazir,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; ; 
+}
+.search-box input::placeholder{
+    color: #BABABA;
+    font-size: 0.875rem;
+}
+
+.search-box i {
+    margin:0 8px;
+    font-size: 0.800rem;
+    transition: color 0.2s ease ;
+}
+.search-box:hover{
+    color:  rgba(0,0,0,.55);;
+}
+
+.advertisement{
+    background-color: #a62626;
+    color: #fff;
+    transform: background-color 0.2s ease;
+    margin-right:16px;
+    padding-top:2px !important;
+}
+
+.advertisement:hover{
+    background-color: #BE3737;
+    color: #fff;
+}
+
+.left-menu {
+    padding-right:130px;
+
+
+}
+.left-menu button {
+    padding: 0 16px;
+}
+
+.support , .chat {
+    margin-right:8px;
+}
+
+.left-menu span {
+    font-size: 0.800rem;
+}
+
+.advertisement span {
+    font-size: 0.900rem;
+}
