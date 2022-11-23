@@ -336,3 +336,18 @@ form {
 .aparat img:hover{
     opacity: 0.78;
 }
+
+.namads a {
+    display:inline;
+    cursor: pointer;
+}
+.namads img {
+    width:81px;
+    height: 89px;
+}
+.namads{
+    margin:0.875rem;
+    justify-content: center;
+}
+
+
