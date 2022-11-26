@@ -351,3 +351,57 @@ form {
 }
 
 
+.main>*{
+    float:right;
+}
+.main::before,.main::after{
+    content:"";
+    clear: both;
+}
+.content{
+    display:inline;
+    width:75%;
+}
+
+.content-header span {
+    margin-left: 4px;
+    margin-right:8px;
+    font-size:0.75rem;
+    font-weight: 700 !important;
+    color: rgba(0,0,0,0.78);
+}
+.content-header img{
+    width:24px;
+    height: 24px;
+}
+
+.notice{
+    background-color:  #f0faff;
+    border: 1px solid rgba(0,0,0,.12);
+    padding:8px;
+    justify-content: center;
+    width:252px;
+    height:24px;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-header{
+    margin-top: 32px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.content h2{
+    text-align: left;
+    font-size:0.75rem;
+    font-weight: 400;
+    color:rgba(0,0,0,.56);
+    padding:2px 0 8px;
+}
+
+
+.main{
+    width:100%;
+}
+
