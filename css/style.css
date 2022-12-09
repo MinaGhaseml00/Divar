@@ -284,6 +284,7 @@ form {
 
 .filter span{
     margin-right: 4px;
+    cursor: pointer;
 }
 
 .about a {
@@ -386,10 +387,11 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 .content-header{
     margin-top: 32px;
-    border-bottom: 1px solid rgba(0,0,0,.12);
+    
 }
 
 .content h2{
@@ -398,10 +400,94 @@ form {
     font-weight: 400;
     color:rgba(0,0,0,.56);
     padding:2px 0 8px;
+    /* margin-bottom:24px; */
 }
 
 
 .main{
     width:100%;
+}
+
+.card-box {
+    height:136px;
+    width: calc(calc(100%/3) - 48px);
+    padding:8px;
+    border:1px solid rgba(0,0,0,.12);
+    border-radius: 4px;
+    padding:16px;
+    margin:8px 0;
+    cursor: pointer;
+}
+
+.card-middle{
+    margin:8px 16px;
+}
+.card-box>*{
+    display:inline-block;
+    width:40%;
+    align-items: center;
+    
+}
+
+.card-body {
+    width: 45%;
+}
+
+.card-feature{
+    width: 5%;
+    
+}
+.card-feature i {
+    color: rgba(0,0,0,.56);
+
+}
+.card-body h2{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    font-size:1rem;
+    color: rgba(0,0,0,0.87);
+    line-height: 28px;
+    height: 56px;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.card-body div {
+    color: rgba(0,0,0,.56);
+    font-size: .875rem;
+    line-height: 24px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+
+.card-thumbnail img {
+    width: 136px;
+    height: 136px;
+    border-radius: 4px;
+    margin-right:4px;
+    
+}
+
+.card-thumbnail {
+    width:45%;
+    text-align: left;
+    height:136px;
+}
+.card-footer{
+    font-size: 0.75rem !important;
+}
+
+.cards>*{
+    display: inline-block;
+    
+}
+
+.cards {
+    border-top: 1px solid rgba(0,0,0,.12);
 }
 
