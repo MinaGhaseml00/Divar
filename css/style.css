@@ -6,9 +6,15 @@
     font-family: IRANSans;
     src: url('../fonts/IRANsans.ttf');
 }
+
 @font-face {
-    font-family: fontawsome;
-    src: url('../css/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.ttf');
+    font-family: fontawsomeB;
+    src: url('../fonts/webfonts/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family: fontawsomeR;
+    src: url('../fonts/webfonts/fa-regular-400.ttf');
 }
 
 @font-face {
@@ -437,6 +443,12 @@ form {
     width: 5%;
     
 }
+
+.card-header{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
 .card-feature i {
     color: rgba(0,0,0,.56);
 
@@ -451,9 +463,20 @@ form {
     height: 56px;
     font-weight: 700;
     text-align: right;
+    /* margin-bottom: 16px; */
     
 }
-
+.hidden {
+    visibility:hidden;
+}
+.social-icons i {font-family:fontawsomeB !important;} 
+/* .search-box i {font-family:fontawsomeR !important;} */
+.card-box span {
+    color: #a62626;
+    font-size: .75rem;
+    /* margin-left: 4px; */
+    display: inline;
+}
 .card-body div {
     color: rgba(0,0,0,.56);
     font-size: .875rem;
