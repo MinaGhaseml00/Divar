@@ -263,7 +263,7 @@ form {
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 2;
-    color: rgba(0,0,0,.56);
+    color: rgba(0,0,0,.87);
     padding:8px 0;
 }
 
@@ -368,7 +368,7 @@ form {
 }
 .content{
     display:inline;
-    width:75%;
+    width:calc(79% - 48px);
 }
 
 .content-header span {
