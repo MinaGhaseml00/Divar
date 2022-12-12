@@ -232,9 +232,12 @@ form {
 .sidebar{
     width:21%;
     position:sticky;
+    top:0;
     padding : 32px 16px;
     
 }
+
+
 
 .filter-categories a{
     color:rgba(0,0,0,.56);
@@ -369,6 +372,7 @@ form {
 .content{
     display:inline;
     width:calc(79% - 48px);
+    padding-left:16px;
 }
 
 .content-header span {
